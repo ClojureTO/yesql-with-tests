@@ -1,10 +1,20 @@
 # yesql-examples
 
-A Clojure library designed to ... well, that part is up to you.
+An example of using the [Yesql](https://github.com/krisajenkins/yesql/tree/devel) library with unit tests.
 
 ## Usage
 
-FIXME
+To run the tests either run in the terminal:
+
+    lein test
+
+or in the REPL:
+
+```clojure
+(use 'yesql-examples.core-test)
+(run-tests)
+```
+
 
 ## License
 
